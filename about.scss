@@ -1,0 +1,107 @@
+$main-colour:rgb(255, 69, 0);
+$secondary-colour:rgb(0, 0, 0);
+$tertiary-colour:rgb(128, 128, 128);
+$paragraph-size: 14pt;
+/* Styling for mody */
+body {
+    text-align: center;
+    background-color: $tertiary-colour;
+    opacity: 0.7;
+}
+/* Styling for headings. */
+h1 {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: $paragraph-size + 18pt;
+}
+h2 {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: $paragraph-size + 10pt;
+    background-color: $main-colour;
+    border: 50px;
+    padding: 50px;
+    border-radius: 15px;
+    border: 3px solid $secondary-colour;
+}
+/* Styling for paragraphs. */
+p {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: $paragraph-size + 7pt;
+    background-color: $main-colour;
+    padding: 35px 45px;
+    border-radius: 15px;
+    border: 3px solid $secondary-colour;
+}
+/* Styling for heading container. */
+div {
+    text-align: center;
+    border: 20px;
+    border-style: solid;
+    border-color: $main-colour;
+    padding: 30px;
+    background-color: $main-colour;
+    color: $secondary-colour;
+    border-radius: 15px;
+    border: 3px solid $secondary-colour;
+}
+/* Styling for images. */
+.dive-img {
+    width: 1880px;
+    border-radius: 15px;
+    border: 3px solid $secondary-colour;
+}
+.map-img {
+    width: 1880px;
+    border-radius: 15px;
+    border: 3px solid $secondary-colour;
+}
+.fps-img {
+    width: 1880px;
+    border-radius: 15px;
+    border: 3px solid $secondary-colour;
+}
+.champion-img {
+    width: 1880px;
+    border-radius: 15px;
+    border: 3px solid $secondary-colour;
+}
+img {
+    border-radius: 15px;
+}
+/* Styling for input container. */
+input[type=text], select {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 3px solid $secondary-colour;
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+/* Styling for submit button. */
+input[type=submit] {
+    width: 25%;
+    background-color: $main-colour;
+    color: $secondary-colour;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: 3px solid $secondary-colour;
+    border-radius: 15px;
+    cursor: pointer;
+}
+/* Styling for hyperlink button. */
+a:link, a:visited {
+    background-color: $tertiary-colour;
+    color: $secondary-colour;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: 3px solid $secondary-colour;
+    border-radius: 15px;
+}
+/* Styling when hovering over hyperlink button. */
+a:hover, a:active {
+    background-color: $main-colour;
+    border: 3px solid $secondary-colour;
+    border-radius: 15px;
+}

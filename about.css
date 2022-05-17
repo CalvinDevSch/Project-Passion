@@ -1,0 +1,102 @@
+body {
+    text-align: center;
+    background-color: grey;
+    opacity: 0.7;
+}
+/* Styling for headings. */
+h1 {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 70px;
+}
+h2 {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    background-color: orangered;
+    border: 50px;
+    padding: 50px;
+    border-radius: 15px;
+    border: 3px solid black;
+}
+/* Styling for paragraphs. */
+p {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    background-color: orangered;
+    padding: 35px 45px;
+    border-radius: 15px;
+    border: 3px solid black;
+}
+/* Styling for heading container. */
+div {
+    text-align: center;
+    border: 20px;
+    border-style: solid;
+    border-color: orangered;
+    padding: 30px;
+    background-color: orangered;
+    color: black;
+    border-radius: 15px;
+    border: 3px solid black;
+}
+/* Styling for images. */
+.dive-img {
+    width: 1880px;
+    border-radius: 15px;
+    border: 3px solid black;
+}
+.map-img {
+    width: 1880px;
+    border-radius: 15px;
+    border: 3px solid black;
+}
+.fps-img {
+    width: 1880px;
+    border-radius: 15px;
+    border: 3px solid black;
+}
+.champion-img {
+    width: 1880px;
+    border-radius: 15px;
+    border: 3px solid black;
+}
+img {
+    border-radius: 15px;
+}
+/* Styling for input container. */
+input[type=text], select {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 3px solid black;
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+/* Styling for submit button. */
+input[type=submit] {
+    width: 25%;
+    background-color: orangered;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: 3px solid black;
+    border-radius: 15px;
+    cursor: pointer;
+}
+/* Styling for hyperlink button. */
+a:link, a:visited {
+    background-color: grey;
+    color: black;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: 3px solid black;
+    border-radius: 15px;
+}
+/* Styling when hovering over hyperlink button. */
+a:hover, a:active {
+    background-color: orangered;
+    border: 3px solid black;
+    border-radius: 15px;
+}

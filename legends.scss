@@ -1,0 +1,109 @@
+$main-colour:rgb(255, 69, 0);
+$secondary-colour:rgb(0, 0, 0);
+$tertiary-colour:rgb(128, 128, 128);
+$paragraph-size: 14pt;
+/* Styling for headings and paragraphs. */
+div {
+    text-align: center;
+    border: 3px solid;
+    border-color: $secondary-colour;
+    padding: 30px;
+    background-color: $main-colour;
+    color: $secondary-colour;
+    border-radius: 15px;
+}
+body {
+    background-color: $tertiary-colour;
+    opacity: 0.7;
+    text-align: center;
+}
+h1 {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: $paragraph-size + 18pt;
+}
+h2 {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: $paragraph-size + 10pt;
+    background-color: $main-colour;
+    border-radius: 15px;
+}
+h3 {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: $paragraph-size + 10pt;
+    background-color: $main-colour;
+    border-radius: 15px;
+    border: 3px solid;
+    border-color: $secondary-colour;
+}
+p {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: $paragraph-size + 7pt;
+    background-color: $main-colour;
+    padding: 25px 35px;
+    border-radius: 15px;
+}
+/* Styling for unordered lists. */
+ul {
+    background: $main-colour;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: $paragraph-size + 7pt;
+    list-style: none;
+    border-radius: 15px;
+    border: 3px solid;
+    border-color: $secondary-colour;
+}
+ul li {
+    color: $secondary-colour;
+}
+/* Styling for table. */
+table {
+    border: collapse;
+    width: 100%;
+    border-radius: 15px;
+}
+/* Styling for table's content. */
+th, td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 3px solid $main-colour;
+    color: white;
+}
+/* Styling for radio submit. */
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: $paragraph-size + 7pt;
+    background-color: $main-colour;
+    border-radius: 15px;
+}
+.container input {
+    position: relative;
+}
+/* Styling for images. */
+img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    border: 3px solid;
+    border-color: $secondary-colour;
+}
+/* Styling for hyperlink button. */
+a:link, a:visited {
+    background-color: $tertiary-colour;
+    color: $secondary-colour;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: 3px solid $secondary-colour;
+    border-radius: 15px;
+}
+/* Styling when hovering over hyperlink button. */
+a:hover, a:active {
+    background-color: $main-colour;
+    border: 3px solid $secondary-colour;
+    border-radius: 15px;
+}

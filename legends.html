@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <title>Legends</title>
+    <link rel="stylesheet" href = "legends.css" type = "text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+</head>
+
+<body>
+    <div>
+        <h1>Meet the Legends</h1>
+        <h2>Choose a legend that suits your playstyle</h2><br>
+        <a href="saveBasket.html" id="save-later">Save for Later</a>
+    </div>
+    <p>Each legend has a tactical ability, a passive ability and a ultimate ability.
+        Each <legend></legend> falls under a category namely.
+    </p>
+    <!--Unordered list.-->
+    <ul id="yo">
+        <li>Assault</li>
+            <p>Legends used to rush in to deal damage</p>
+        <li>Scout</li>
+            <p>Legends used to locate nearby enemies and reveal to your squad</p>
+        <li>Support</li>
+            <p>Legends used to heal or protect your squad</p>
+      </ul><br>
+    <h3>Here's which category legends falls under</h3><br>
+    <!--Code for table.<td> to code for tick and cross symbols-->
+    <table>
+        <tr>
+            <th>Legends</th>
+            <th>Assault</th>
+            <th>Scout</th>
+            <th>Support</th>
+        </tr>
+        <tr>
+            <th>Wraith</th>
+            <td align="center" style="text-align:center; font-size:150%; font-weight:bold; color:greenyellow;">&#10004;</td>
+            <td align="center" style="text-align:center; font-size:150%; font-weight:bold; color:red;">&#10006;</td>
+            <td align="center" style="text-align:center; font-size:150%; font-weight:bold; color:red;">&#10006;</td>
+        </tr>
+        <tr>
+            <th>Bloodhound</th>
+            <td align="center" style="text-align:center; font-size:150%; font-weight:bold; color:red;">&#10006;</td>
+            <td align="center" style="text-align:center; font-size:150%; font-weight:bold; color:greenyellow;">&#10004;</td>
+            <td align="center" style="text-align:center; font-size:150%; font-weight:bold; color:red;">&#10006;</td>
+        </tr>
+        <tr>
+            <th>Lifeline</th>
+            <td align="center" style="text-align:center; font-size:150%; font-weight:bold; color:red;">&#10006;</td>
+            <td align="center" style="text-align:center; font-size:150%; font-weight:bold; color:red;">&#10006;</td>
+            <td align="center" style="text-align:center; font-size:150%; font-weight:bold; color:greenyellow;">&#10004;</td>
+        </tr>
+        <tr>
+            <th>Gibraltar</th>
+            <td align="center" style="text-align:center; font-size:150%; font-weight:bold; color:greenyellow;">&#10004;</td>
+            <td align="center" style="text-align:center; font-size:150%; font-weight:bold; color:red;">&#10006;</td>
+            <td align="center" style="text-align:center; font-size:150%; font-weight:bold; color:greenyellow;">&#10004;</td>
+        </tr>
+        <tr>
+            <th>Ash</th>
+            <td align="center" style="text-align:center; font-size:150%; font-weight:bold; color:greenyellow;">&#10004;</td>
+            <td align="center" style="text-align:center; font-size:150%; font-weight:bold; color:greenyellow;">&#10004;</td>
+            <td align="center" style="text-align:center; font-size:150%; font-weight:bold; color:red;">&#10006;</td>
+        </tr>
+    </table><br>
+    <p>As you can see there are some legends that fall under more than one category.
+        For example lets have a look at the legend Ash.
+    </p>
+    <h3>Ash</h3>
+    <img class="ash-img" src="https://thumb.sfmlab.com/item-preview/projectfile/0001_r45SAH3_thumb.detail.png" alt="Ash"><br>
+    <!--Second unordered list-->
+    <ul>
+        <li>Tactical Ability</li>
+            <p>Ensnare enemies for a few seconds, which falls under assault</p>
+        <li>Passive Abilty</li>
+            <p>Locate enemies using fallen foes, which falls under scout</p>
+        <li>Ultimate Ability</li>
+            <p>Create a one way portal to enter battles, which falls under assault</p>
+    </ul>
+    <p>Ash has two abilities suited for assault and one ability suited for support which makes a versatile legend to play with.</p><br>
+    <a href="https://www.ea.com/games/apex-legends/about/characters">For more info check this link.</a>
+    <!--Used form to create a radio button-->
+    <form action="/action_page.php">
+        <p>Which legend will you try first?</p>
+        <label class="container">
+            <input type="radio" id="wraith" name="legend_pick" value="Wraith">
+            <label for="wraith">Wraith</label><br>
+            <input type="radio" id="bloodhound" name="legend_pick" value="Bloodhound">
+            <label for="bloodhound">Bloodhound</label><br>
+            <input type="radio" id="lifeline" name="legend_pick" value="Lifeline">
+            <label for="lifeline">Lifeline</label><br>
+            <input type="radio" id="gibraltar" name="legend_pick" value="Gibraltar">
+            <label for="gibraltar">Gibraltar</label><br>
+            <input type="radio" id="ash" name="legend_pick" value="Ash">
+            <label for="ash">Ash</label><br>
+        </label>
+    <script type='text/javascript' src='passion.js'></script>
+</body>
+
+</html>

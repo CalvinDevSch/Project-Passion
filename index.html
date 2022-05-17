@@ -1,0 +1,59 @@
+<!doctype html> 
+
+<html lang="en">
+
+<head>
+    <title>My Passion</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href = "index.css" type = "text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+</head>
+
+<body>
+    <div>
+        <h1>Apex Legends</h1>
+        <h2>Join the battle royale experience</h2>
+        <a href="saveBasket.html" id="save-later">Save for Later</a>
+        <button class="toggle">Hide/Show Image</button>
+        <p>Click on any image or paragraph to save it into a basket.</p>
+    </div>
+    <img class="apex-img" src="./Images/Apex.jpg"
+    alt="Apex">
+    <blockquote cite="https://www.pcgamer.com/apex-legends-review/">
+        "Apex is stable, spilling over with smart design touches, and it's set a new industry standard with an impressive breadth of accessibility options and communication tools." - PC Gamers
+    </blockquote>
+    <!-- Code for buttons leading to other pages in a dropdown menu. -->
+    <div class="dropdown">
+        <button class="dropbtn">More Content</button>
+        <div class="dropdown-content">
+          <a href="legends.html">Meet the legends</a>
+          <a href="about.html">About the game</a>
+        </div>
+    </div>
+    <!-- Code for comment input and send button. -->
+    <div class="info">
+        <label for="example">Enter Comment</label>
+        <input id="example" type="text" name="Ntext" size="20">
+        <input id="sent" type="submit" value="Send">
+    </div>
+    <!-- Code for where comments will be displayed. -->
+    <div>
+        <p id="para">
+        </p>
+    </div>
+    <!-- Code for a get in contact form. -->
+    <div>
+        <h3>Get into contact with us</h3>
+        <form name="myForm">
+            Name: <input type="text" id="fname" required>
+            Surname: <input type="text" id="sname" required>
+            Email: <input type="text" id="email" required>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    <script type='text/javascript' src='passion.js'></script>
+</body>
+
+</html>
+

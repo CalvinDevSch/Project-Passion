@@ -1,0 +1,100 @@
+$main-colour:rgb(255, 69, 0);
+$secondary-colour:rgb(0, 0, 0);
+$tertiary-colour:rgb(128, 128, 128);
+$paragraph-size: 14pt;
+/* Styling for headings and paragraphs. */
+div {
+    text-align: center;
+    border: 3px solid;
+    border-style: solid;
+    border-color: $secondary-colour;
+    padding: 30px;
+    background-color: $main-colour;
+    color: $secondary-colour;
+    border-radius: 15px;
+}
+body {
+    background-color: $tertiary-colour;
+    opacity: 0.7;
+}
+h1 {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: $paragraph-size + 18pt;
+}
+h2 {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: $paragraph-size + 10pt;
+    border-radius: 15px;
+}
+/* Styling for image. */
+img {
+    width: 1880px;
+    border-radius: 15px;
+    border: 3px solid;
+    background-color: $secondary-colour;
+}
+/* Styling for blockquote and content. */
+blockquote {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: $paragraph-size + 7pt;
+    background-color: $main-colour;
+    padding: 20px 20px;
+    border-radius: 15px;
+    border: 3px solid $secondary-colour;
+    width: 1000px;
+    text-align: center;
+    margin-left: 430px;
+}
+/* Styling for two form submit buttons. */
+input {
+    background-color: $main-colour;
+    border: 3px solid;
+    border-color: $secondary-colour;
+    color: $secondary-colour;
+    padding: 16px 32px;
+    cursor: pointer;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: $paragraph-size + 7pt;
+    border-radius: 15px;
+}
+/* Styling for button container */
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    border: 3px solid;
+    background-color: $tertiary-colour;
+    opacity: none;
+    border-color: $secondary-colour;
+}
+.label {
+    background-color: $main-colour;
+    border: 3px solid;
+    border-color: $secondary-colour;
+    color: $secondary-colour;
+    padding: 16px 32px;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: $paragraph-size + 7pt;
+    border-radius: 15px;
+}
+a:link, a:visited {
+    background-color: $tertiary-colour;
+    color: $secondary-colour;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: 3px solid $secondary-colour;
+    border-radius: 15px;
+}
+/* Styling when hovering over hyperlink button. */
+a:hover, a:active {
+    background-color: $main-colour;
+    border: 3px solid $secondary-colour;
+    border-radius: 15px;
+}
+p {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: $paragraph-size + 8pt;
+}
